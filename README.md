@@ -6,3 +6,5 @@ AES使用的不可约多项式为x<sup>8</sup> +x<sup>4</sup> +x<sup>3</sup> +x<
 SM4使用的不可约多项式为x<sup>8</sup> +x<sup>7</sup> +x<sup>6</sup> +x<sup>5</sup> x<sup>4</sup> +x<sup>2</sup> +1    
 借助于有限域同构，将SM4对应的有限域元素映射到AES对应的有限域元素中，再借助指令求逆，最后再逆映射      
 实现时要特别注意8bit数与矩阵的对应关系，这在SM4与AES中的结果有所不同  
+
+运行指导以及代码运行结果截图见WordDocument-OperationalGuidelines-and-ScreenshotsOfResults中创新实践提交文档.docx
